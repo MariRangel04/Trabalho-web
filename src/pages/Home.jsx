@@ -5,17 +5,37 @@ export function Home(){
         <>
         <main>
             <Carrosel/>
-            <div class="container px-4 text-center">
-                <div class="row gx-5">
-                    <div class = "col">
-                        <div class="p-3"><a href=""><img src="src/img/002.webp" alt="" /></a></div>
-                    </div>
-                    <div class ="col">
-                        <div class ="p-3"><img src="src/img/002.webp" alt="" /></div>
+            <div class="coluna01">
+                <div class="container overflow-hidden">
+                    <div class="row gx-5">
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card" alt="card-carteira">
+                                    <img src="src/img/carteira.webp" alt="" />
+                                    <div class="card-body">
+                                        <h5 class="card-title"> carteira</h5>
+                                        <p clss="card-text">Deposite seu dinheiro para comesar a muutiplicalo</p>
+                                        <a href="#" class="btn btn-primary"> ir para carteira</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card" alt="card-apostas">
+                                    <img src="src/img/005.webp" alt="" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jogo</h5>
+                                        <p clss="card-text">Deposite seu dinheiro para comesar a muutiplicalo</p>
+                                        <a href="#" class="btn btn-primary"> ir para jogo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
+
         </main> 
         </>
     )

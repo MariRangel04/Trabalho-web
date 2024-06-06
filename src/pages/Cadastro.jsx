@@ -1,0 +1,7 @@
+import function Cadastro(){
+    return(
+        <>
+        
+        </>
+    )
+}
