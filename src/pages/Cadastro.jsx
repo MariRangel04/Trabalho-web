@@ -28,10 +28,9 @@ export function Cadastro(){
                         <span class="input-group-text" id="basic-addon2">Senha</span>
                     </div>
                     <div className="button-group">
-                        <button type="button" class="btn btn-primary btn-sm">cadastrar</button>
-                        <button type="button" class="btn btn-secondary btn-sm">cancelar</button>                        
+                        <button type="button" class="btn btn-primary btn-sm">Cadastrar</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Cancelar</button>                        
                     </div>
-
                 </label>
             </form>
         </div>
