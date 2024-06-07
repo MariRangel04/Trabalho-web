@@ -1,29 +1,22 @@
 import{Swiper, SwiperSlide} from 'swiper/react';
-const data = [
-    {id: '1', imagem: '/home/matheus/Trabalho_web/Trabalho web/src/img/logo.png'},
-    {id: '3', imagem: '/home/matheus/Trabalho_web/Trabalho web/src/img/logo2.svg'},
-    {id: '4', imagem: '/home/matheus/Trabalho_web/Trabalho web/src/img/logo2.svg'},
-    {id: '5', imagem: '/home/matheus/Trabalho_web/Trabalho web/src/img/logo2.svg'}
-]
+
 
 export function Carrosel(){
     return(
         <>
-        <div className='container'>
+        <div className='container2'>
             <Swiper
-                slidesPerView={1}
-                pagination={{clickable: true}}
-                navigation
+               slidesPerView={3}
+               pagination={{clickable: true}}
+               navigation
+
             >
-                {data.map((item) => (
-                    <SwiperSlide key={item.id}>
-                        {
-                        <img src="item.imagem"
-                        alt="Slider"
-                        className='slide-item'
-                        />}
-                    </SwiperSlide>
-                ))}
+                <SwiperSlide><img src='src/img/001.webp' alt='Slide 1' ></img></SwiperSlide>
+                <SwiperSlide><img src='src/img/002.webp' alt='Slide 2'></img></SwiperSlide>
+                <SwiperSlide><img src='src/img/003.webp' alt='Slide 3'></img></SwiperSlide>
+                <SwiperSlide><img src='src/img/004.webp' alt='Slide 4'></img></SwiperSlide>
+                <SwiperSlide><img src='src/img/005.webp' alt='Slide 5'></img></SwiperSlide>
+                <SwiperSlide><img src='src/img/006.webp' alt='Slide 6'></img></SwiperSlide>
             </Swiper>
         </div>
         </>
